@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'me.binhmod.fps'
+    namespace 'com.example.gamebooster'
     compileSdk 36
 
     defaultConfig {
-        applicationId "me.binhmod.fps"
+        applicationId "com.example.gamebooster"
         minSdk 26
         targetSdk 34
         versionCode 1
