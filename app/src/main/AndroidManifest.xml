@@ -4,7 +4,7 @@
 
     <application
         android:label="Game Booster"
-        android:theme="@android:style/Theme.Holo.Light">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
         <activity
             android:name=".MainActivity"
