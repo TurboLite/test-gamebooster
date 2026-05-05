@@ -1,4 +1,9 @@
 #!/usr/bin/env sh
 
+# Gradle start script
+
 DIR="$(cd "$(dirname "$0")" && pwd)"
-java -jar "$DIR/gradle/wrapper/gradle-wrapper.jar" "$@"
+
+CLASSPATH=$DIR/gradle/wrapper/gradle-wrapper.jar
+
+exec java -classpath "$CLASSPATH" org.gradle.wrapper.GradleWrapperMain "$@"
