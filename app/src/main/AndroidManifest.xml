@@ -7,12 +7,16 @@
         android:label="Game Booster"
         android:theme="@android:style/Theme.Holo.Light">
 
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
+        <activity
+    android:name=".MainActivity"
+    android:exported="true">  <!-- THÊM DÒNG NÀY -->
+
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+    </intent-filter>
+
+</activity>
 
     </application>
 </manifest>
